@@ -8,7 +8,8 @@ What is this?
 This project contains the Verilog and Visual Studio source files to allow
 a [Saanlima Pipistrello board](http://pipistrello.saanlima.com) (containing a Xilinx SPARTAN 6 FPGA) to be used,
 in conjunction with a TOSLink receiver module, to capture data directly from
-a TOSLink fibre-optic input.
+a TOSLink fibre-optic input.  Data is buffered in the onboard LPDDR memory on the
+Pipistrello and can be read back by a PC attached using a USB cable.
 
 Here's a photo showing the setup running with some debug output on an oscilloscope:
 
