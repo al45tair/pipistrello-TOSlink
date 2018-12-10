@@ -28,7 +28,7 @@ SOFTWARE.
 
 The mcb_controller subdirectory and the file memc_wrapper.v are subject to the
 following Xilinx copyright, which can also be found at the top of every affected
-source file.  It was generated using Xilinx's toolset.
+source file.  These files were generated using Xilinx's toolset.
 
 ----
 
