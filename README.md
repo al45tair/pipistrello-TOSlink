@@ -10,6 +10,10 @@ a [Saanlima Pipistrello board](http://pipistrello.saanlima.com) (containing a Xi
 in conjunction with a TOSLink receiver module, to capture data directly from
 a TOSLink fibre-optic input.
 
+Here's a photo showing the setup running with some debug output on an oscilloscope:
+
+![Pipistrello TOSlink capture](pipistrello.jpg?raw=true)
+
 How does it work?
 -----------------
 
