@@ -6,7 +6,7 @@ What is this?
 -------------
 
 This project contains the Verilog and Visual Studio source files to allow
-a Saanlima Pipistrello board (containing a Xilinx SPARTAN 6 FPGA) to be used,
+a [Saanlima Pipistrello board](http://pipistrello.saanlima.com) (containing a Xilinx SPARTAN 6 FPGA) to be used,
 in conjunction with a TOSLink receiver module, to capture data directly from
 a TOSLink fibre-optic input.
 
@@ -76,7 +76,7 @@ The `flags` field is as follows:
 
 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
- | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | `done` | `sync`
+ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | `done` | `sync`
 
 where `sync` indicates that the FPGA has acheived data synchronisation on the
 TOSLink input and `done` indicates that capture has completed.
